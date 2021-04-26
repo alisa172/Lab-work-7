@@ -107,7 +107,7 @@ a {
 
 .leo-shop {
     float: left;
-    margin-top: 25px;
+    margin-top: 23px;
     display: inline;
     font-size: 1.5rem;
     margin-left: 98px;
@@ -173,48 +173,52 @@ a {
     position: absolute;
     display: flex;
     z-index: 2;
-    opacity: 75%;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
     margin-left: 8.5em;
     margin-top: 16.6em;
-    column-gap: 9.8em;
+    column-gap: 9.6em;
+    font-weight: bolder;
+    opacity: 65%;
 }
 
 #nazva-okulyary-2 {
     position: absolute;
     display: flex;
     z-index: 2;
-    opacity: 75%;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
     margin-left: 8.5em;
     margin-top: 37.8em;
-    column-gap: 9.5em;
+    column-gap: 9.4em;
+    font-weight: bolder;
+    opacity: 65%;
 }
 
 #nazva-okulyary-3 {
     position: absolute;
     display: flex;
     z-index: 2;
-    opacity: 75%;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
-    margin-left: 8.6em;
-    margin-top: 14.6em;
+    margin-left: 8.4em;
+    margin-top: 14.4em;
     column-gap: 10.2em;
+    font-weight: bolder;
+    opacity: 65%;
 }
 
 #nazva-okulyary-4 {
     position: absolute;
     display: flex;
     z-index: 2;
-    opacity: 75%;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
     margin-left: 8.4em;
-    margin-top: 39em;
-    column-gap: 9.8em;
+    margin-top: 38.8em;
+    column-gap: 10.6em;
+    font-weight: bolder;
+    opacity: 65%;
 }
 
 #tsina-okulyary-1 {
@@ -347,7 +351,7 @@ a {
 .fist-layer-images-call {
     position: absolute;
     padding-top: 6px;
-    padding-left: 52em;
+    padding-left: 56.8em;
 }
 
 .first-layer-text-dol {
@@ -358,7 +362,7 @@ a {
 
 .first-layer-text-call-us {
     position: absolute;
-    padding-left: 55.5em;
+    padding-left: 60em;
     padding-top: 16px;
 }
 
@@ -475,8 +479,9 @@ a {
 
 .social-networks-icons {
     float: right;
-    margin-right: 14.8em;
+    margin-right: 13.7em;
     margin-top: 1em;
+    word-spacing: 4px;
 }
 
 .third-layer {
