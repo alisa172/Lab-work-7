@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html, body {
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    background-color: rgb(76, 177, 202);
+    color: rgb(0, 0, 0);
+    height: 29px;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.header-left {
+    float: left;
+    width: 50%;
+    padding: 7px 107px;
+}
+.header-right {
+    padding-top: 8px;
+    word-spacing: 6px;
+}
+
+.header-right a {
+    color: white;
+}
+
+.choose-language {
+    background-color: rgb(76, 177, 202);
+    color: white;
+    border: none;
+    font-size: 0.7rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 65px;
+}
+
+.city{
+    padding-left: 15px;
+}
+
+.choose-city {
+    background-color: rgb(76, 177, 202);
+    color: white;
+    border: none;
+    font-size: 0.7rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 45px;
+}
+
+.links a {
+    color: black;
+}
+
+.leo-shop a {
+    color: black;
+}
+
+.links {
+    float: left;
+    margin-top: 32px;
+    display: inline;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    word-spacing: 17px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.just {
+    height: 112em;
+}
+
+.search-icon {
+    float: right;
+    margin-right: 18em;
+    margin-top: 25px;
+}
+
+.search {
+    width: 139px;
+    height: 17px;
+}
+
+.top-icons {
+    display: inline;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 24.5em;
+    word-spacing: 3px;
+}
+
+.top-h-text {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    float: right;
+    display: inline;
+    margin-top: 29px;
+    margin-left: 36.7em;
+}
+
+.leo-shop {
+    float: left;
+    margin-top: 25px;
+    display: inline;
+    font-size: 1.5rem;
+    margin-left: 98px;
+    margin-right: 40px;
+    font-weight: bolder;
+
+}
+
+#glasses {
+    margin-top: 1.5em;
+}
+
+.products-1 {
+    display: inline;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 75%;
+    margin-top: 1.4em;
+    margin-left: 6em;
+}
+
+.products-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 75%;
+    margin-top: 42em;
+    margin-left: 6.3em;
+}
+
+.products-3 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 75%;
+    margin-top: 21em;
+    margin-left: 6.3em;
+}
+
+#container {
+    position: absolute;
+    display: flex;
+    margin-top: 4em;
+    margin-left: 6.7em;
+    column-gap: 4em;
+    z-index: 1;
+}
+
+#chart-1 {
+    position: absolute;
+    display: flex;
+    margin-top: 16em;
+    margin-left: 16.4em;
+    z-index: 2;
+    column-gap: 14.8em;
+    opacity: 75%;
+}
+
+#nazva-okulyary-1 {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    opacity: 75%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 8.5em;
+    margin-top: 16.6em;
+    column-gap: 9.8em;
+}
+
+#nazva-okulyary-2 {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    opacity: 75%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 8.5em;
+    margin-top: 37.8em;
+    column-gap: 9.5em;
+}
+
+#nazva-okulyary-3 {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    opacity: 75%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 8.6em;
+    margin-top: 14.6em;
+    column-gap: 10.2em;
+}
+
+#nazva-okulyary-4 {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    opacity: 75%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 8.4em;
+    margin-top: 39em;
+    column-gap: 9.8em;
+}
+
+#tsina-okulyary-1 {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    opacity: 85%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 8.6em;
+    margin-top: 18em;
+    column-gap: 15.4em;
+    color: rgb(108, 234, 168);
+}
+
+#tsina-okulyary-2 {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    opacity: 85%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 8.6em;
+    margin-top: 39.2em;
+    column-gap: 15.2em;
+    color: rgb(108, 234, 168);
+}
+
+#tsina-okulyary-3 {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    opacity: 85%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 8.8em;
+    margin-top: 16em;
+    column-gap: 15.2em;
+    color: rgb(108, 234, 168);
+}
+
+#tsina-okulyary-4 {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    opacity: 85%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    margin-top: 40.2em;
+    margin-left: 8.6em;
+    column-gap: 15.2em;
+    color: rgb(108, 234, 168);
+}
+
+#container-22 {
+    position: absolute;
+    display: flex;
+    margin-top: 23em;
+    margin-left: 6.7em;
+    column-gap: 4em;
+    z-index: 1;
+}
+
+#chart-2 {
+    position: absolute;
+    display: flex;
+    margin-top: 35em;
+    margin-left: 16.4em;
+    z-index: 2;
+    column-gap: 14.8em;
+    opacity: 75%;
+}
+
+#container-2 {
+    position: absolute;
+    display: flex;
+    margin-top: 2em;
+    margin-left: 6.7em;
+    column-gap: 4em;
+    z-index: 1;
+}
+
+#chart-3 {
+    position: absolute;
+    display: flex;
+    margin-top: 14em;
+    margin-left: 16.4em;
+    z-index: 2;
+    column-gap: 14.8em;
+    opacity: 75%;
+}
+
+#container-3 {
+    position: absolute;
+    display: flex;
+    margin-top: 24em;
+    margin-left: 6.7em;
+    column-gap: 4em;
+}
+
+#chart-4 {
+    position: absolute;
+    display: flex;
+    margin-top: 36em;
+    margin-left: 16.4em;
+    z-index: 2;
+    column-gap: 14.8em;
+    opacity: 75%;
+}
+
+.border-for-glasses {
+    background: #ffffff;
+    padding: 15px 15px 70px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.first-layer {
+    height: 47px;
+    background-color: rgb(106, 197, 219);
+    color: white;
+    font-size: 0.8rem;
+}
+
+.first-layer-images-shop {
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 14em;
+}
+
+.fist-layer-images-call {
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 52em;
+}
+
+.first-layer-text-dol {
+    padding-top: 16px;
+    float: left;
+    padding-left: 225px;
+}
+
+.first-layer-text-call-us {
+    position: absolute;
+    padding-left: 55.5em;
+    padding-top: 16px;
+}
+
+.second-layer {
+    height: 248px;
+    background-color: rgb(76, 177, 202);
+}
+
+.facebook-name {
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.9rem;
+    padding-top: 32px;
+    padding-left: 12em;
+}
+
+.posht {
+    font-size: 0.7rem;
+}
+
+.facebook-images {
+    position: absolute;
+    margin-top: 88px;
+    margin-left: 10.5em;
+}
+
+.facebook-underphoto-text {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.7rem;
+    padding-left: 15.6em;
+    padding-top: 17.5em;
+    
+}
+
+.twitter-name {
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.9rem;
+    padding-top: 32px;
+    padding-left: 10.7em;
+}
+
+.twitter-first-image {
+    position: absolute;
+    padding-top: 4.5em;
+    padding-left: 26.7em;
+}
+
+.twitter-first-text {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.7rem;
+    width: 160px;
+    padding-top: 6.2em;
+    padding-left: 41.5em;
+}
+
+.twitter-second-image {
+    position: absolute;
+    padding-top: 8.5em;
+    padding-left: 26.7em;
+}
+
+.twitter-second-text {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.7rem;
+    width: 160px;
+    padding-top: 12em;
+    padding-left: 41.6em;
+}
+
+.information-name {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.9rem;
+    padding-top: 32px;
+    padding-left: 49em;
+}
+
+.information-list {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.7rem;
+    padding-top: 56px;
+    padding-left: 61em;
+    line-height: 20px;
+}
+
+.contact-us-text {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.9rem;
+    padding-top: 32px;
+    padding-left: 62em;
+}
+
+.contact-us-adr {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.7rem;
+    padding-top: 20px;
+    padding-left: 79.8em;
+    width: 180px;
+}
+
+.social-networks-icons {
+    float: right;
+    margin-right: 14.8em;
+    margin-top: 1em;
+}
+
+.third-layer {
+    height: 25px;
+    background-color: rgb(11, 75, 90);
+    color: white;
+    font-size: 0.7rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+}
+
+.copyright {
+    float: left;
+    opacity: 70%;
+    padding-left: 200px;
+}
+
+.footer-links {
+    float: right;
+    opacity: 70%;
+    padding-right: 180px;
+    word-spacing: 6px;
+}
+
+.footer-links a {
+    color: white;
+}
+
+.woman-banner {
+    position: absolute;
+    margin-left: 56.3em;
+    margin-top: 2em;
+    z-index: 1;
+}
+
+.woman-border {
+    background: #ffffff;
+    padding:  0px 15px 55px 15px;
+    border-style: solid;
+    border-color: rgb(211, 207, 207);
+    border-width: 0.5px;
+    border-top-color: rgb(76, 177, 202);
+    border-top-width: 6px;
+}
+
+.letters-banner {
+    text-align: center;
+    background: white;
+    width: 220px;
+    float: right;
+    margin-top: 30em;
+    margin-right: 9em;
+}
+
+#neeeewssss {
+    opacity: 80%;
+    font-weight: bolder;
+    padding:  30px 15px 30px 15px;
+    border-style: solid;
+    border-color: rgb(211, 207, 207);
+    border-width: 0.5px;
+    border-top-color: rgb(76, 177, 202);
+    border-top-width: 6px;
+}
+
+.small-text {
+    font-weight: normal;
+    font-size: 0.7rem;
+}
+
+.green-button {
+    color: white;
+    background-color: rgb(108, 234, 168);
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.another-button {
+    position: absolute;
+    z-index: 2;
+    margin-left: 59.5em;
+    margin-top: 21.6em;
+}
+
+.blue-button {
+    color: white;
+    background-color: rgb(76, 177, 202);
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.woman-text {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 60.2em;
+    margin-top: 3.5em;
+    opacity: 80%;
+}
+
